@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Http;
 
 namespace CowsAndBullsEgress.cs.Pages
 {
@@ -11,7 +12,6 @@ namespace CowsAndBullsEgress.cs.Pages
     {
         public void OnGet()
         {
-
         }
     }
 }

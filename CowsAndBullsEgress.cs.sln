@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CowsAndBullsEgress.cs", "CowsAndBullsEgress.cs\CowsAndBullsEgress.cs.csproj", "{81B222FB-D37F-4E98-BB90-3813284B80DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CowsAndBullsEgress.cs", "CowsAndBullsEgress.cs\CowsAndBullsEgress.cs.csproj", "{81B222FB-D37F-4E98-BB90-3813284B80DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CowsAndBullsTest.cs", "CowsAndBullsTest.cs\CowsAndBullsTest.cs.csproj", "{0712AE28-E33E-44FF-9C93-AACD5ED5CBDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{81B222FB-D37F-4E98-BB90-3813284B80DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81B222FB-D37F-4E98-BB90-3813284B80DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81B222FB-D37F-4E98-BB90-3813284B80DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0712AE28-E33E-44FF-9C93-AACD5ED5CBDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0712AE28-E33E-44FF-9C93-AACD5ED5CBDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0712AE28-E33E-44FF-9C93-AACD5ED5CBDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0712AE28-E33E-44FF-9C93-AACD5ED5CBDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -22,6 +22,15 @@ namespace CowsAndBullsEgress.cs
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+
+            services.AddDistributedMemoryCache();
+
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromSeconds(200);
+                options.Cookie.HttpOnly = true;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,7 +47,7 @@ namespace CowsAndBullsEgress.cs
             }
 
             app.UseStaticFiles();
-
+            app.UseSession();
             app.UseMvc();
         }
     }

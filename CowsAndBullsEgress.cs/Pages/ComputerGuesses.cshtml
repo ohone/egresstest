@@ -1,0 +1,15 @@
+﻿@page
+@model PlayTheComputerModel
+@{
+    ViewData["Title"] = "Cows And Bulls - The computer will guess your combination.";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>Enter your four numbers.</h3>
+<form method="post">
+    <label for="GuessBox">Entry:</label>
+    <input type="text" name="FirstDigit" value="" pattern="\d*" required maxlength="1" /><input type="text" name="SecondDigit" value="" pattern="\d*" required maxlength="1" /><input type="text" name="ThirdDigit" value="" pattern="\d*" required maxlength="1" /><input type="text" name="FourthDigit" value="" pattern="\d*" required maxlength="1" />
+    <input type="submit"/>
+</form>
+<div>
+</div>
+<h3>@Model.Message</h3>
